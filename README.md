@@ -16,3 +16,8 @@ addJS.CSS("https://example.com/styles.css","After load do somethings");
 ```javascript
 var a=document.createElement("script");a.src="";document.body.appendChild(a);
 ```
+## How to get help?
+`Only console`
+```javascript
+addJS.help();
+```
