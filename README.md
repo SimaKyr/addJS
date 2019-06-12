@@ -14,7 +14,7 @@ addJS.CSS("https://example.com/styles.css","After load do somethings");
 ```
 ## How to connect addJS?
 ```javascript
-var a=document.createElement("script");a.src="";document.body.appendChild(a);
+var a=document.createElement("script");a.src="https://simakyr.github.io/addJS/addJS.js";document.body.appendChild(a);
 ```
 ## How to get help?
 ```javascript
