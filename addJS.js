@@ -5,7 +5,7 @@ add.help = function(){
 
     g('What is this addJS?\n  addJS - this is a script what make add CSS, JS simpler to pages');
     g('How to use?\n  add.JS("function or URL to JS file","After load do somethings");\n  add.CSS("styles or URL to CSS file","After load do somethings");\n    Note: You can use one argument');
-    g('How to connect addJS?\n\naddJS=document.createElement("script");a.src="https://simakyr.github.io/addJS/addJS.js";document.body.appendChild(a)');
+    g('How to connect addJS?\n\nvar a=document.createElement("script");a.src="https://simakyr.github.io/addJS/addJS.js";document.body.appendChild(a)');
     return '';
 }
 add.detectUrl = function(i){
