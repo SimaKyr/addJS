@@ -1,4 +1,4 @@
-if(!add){window.add = {};}
+if(typeof add == 'undefined'){window.add = {};}
 
 add.help = function(){
   var g = console.log;
@@ -15,7 +15,7 @@ add.help = function(){
   g('addJS.CSS("https://example.com/styles.css","After load do somethings");');
   g('');
   g('How to connect addJS?');
-  g('var a=document.createElement("script");a.src="";document.body.appendChild(a);')
+  g('var a=document.createElement("script");a.src="https://simakyr.github.io/addJS/addJS.js";document.body.appendChild(a);')
 }
 
 add.detectUrl = function(i){
