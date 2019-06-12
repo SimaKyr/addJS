@@ -3,17 +3,11 @@ if(typeof add == 'undefined'){window.add = {};}
 add.help = function(){
   var g = console.log;
   g('What is this addJS?');
-  g('addJS - this is a script what make add CSS, JS simpler to pages');
-  g(' ');
-  g('How to use?');
-  g('');
-  g('addJS.JS("execute Somethings","After load do somethings");');
-  g('addJS.JS("https://example.com/code.js","After load do somethings");');
-  g('Note: You can use one argument');
-  g('');
-  g('addJS.CSS("my styles","After load do somethings");');
-  g('addJS.CSS("https://example.com/styles.css","After load do somethings");');
-  g('');
+  g('addJS - this is a script what make add CSS, JS simpler to pages\n');
+  g('How to use?\n');
+  g('add.JS("function or URL to JS file","After load do somethings");');
+  g('Note: You can use one argument\n');
+  g('add.CSS("styles or URL to CSS file","After load do somethings");\n');
   g('How to connect addJS?');
   g('var a=document.createElement("script");a.src="https://simakyr.github.io/addJS/addJS.js";document.body.appendChild(a);')
 }
